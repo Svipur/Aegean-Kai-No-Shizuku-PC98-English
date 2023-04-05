@@ -30,7 +30,7 @@ All WORD-type numbers are big-endian.
 
 |**Offset**|**Description**|
 |---|---|
-|18-19, 1a-1b, 1c-1d, 1e-1f|The number of blocks each channel is split by, respectively.|
+|18-19, 1a-1b, 1c-1d, 1e-1f|The number of blocks each channel is split into, respectively.|
 |24-25|Horizontal size divided by 8.|
 |26-27|Vertical size.|
 |28-29|Uncompressed length (in lines/bytes) of the 1st data block. Usually equals 100e (3600 lines).|
