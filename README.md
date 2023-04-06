@@ -26,17 +26,17 @@ The structure of the image is this:
 
 ## Header.
 
-All WORD-type numbers are big-endian.
+All WORD-type numbers are little-endian.
 
 |**Offset**|**Description**|
 |---|---|
-|18-19, 1a-1b, 1c-1d, 1e-1f|The number of blocks each channel is split into, respectively.|
-|24-25|Horizontal size divided by 8.|
-|26-27|Vertical size.|
-|28-29|Uncompressed length (in lines/bytes) of the 1st data block. Usually equals 100e (3600 lines).|
-|2a-2b|The length of the 1st block (in bytes) with RLE compression, but without the chunk compression.|
-|2c-2d|The length of the 1st block (in bytes) with both compression methods.|
-|2e-2f|The length of the control block after the first block, containing the lookup bytes for the chunk compression.|
+|18-19, 1a-1b, 1c-1d, 1e-1f|WORD. The number of blocks each channel is split into, respectively.|
+|24-25|WORD. Horizontal size divided by 8.|
+|26-27|WORD. Vertical size.|
+|28-29|WORD. Uncompressed length (in lines/bytes) of the 1st data block. Usually equals 100e (3600 lines).|
+|2a-2b|WORD. The length of the 1st block (in bytes) with RLE compression, but without the chunk compression.|
+|2c-2d|WORD. The length of the 1st block (in bytes) with both compression methods.|
+|2e-2f|WORD. The length of the control block after the first block, containing the lookup bytes for the chunk compression.|
 |30-77|Same 4 WORD-type numbers for the remaining blocks in the 1st channel.|
 |78-c7|Same blocks of 4 WORD-type numbers for the 2nd channel.|
 |c8-117|Same blocks of 4 WORD-type numbers for the 3rd channel.|
