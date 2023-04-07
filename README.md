@@ -4,7 +4,7 @@ An English translation of the PC-98 game **Aegean Kai No Shizuku** by Illusion C
 
 # How to install.
 
-The required downloads can be found on the [Releases](https://github.com/Svipur/AegeanKaiNoShizukuPC98-RUS/releases) page. The installation process is covered thereon as well.
+The required downloads can be found on the [Releases](https://github.com/Svipur/Aegean-Kai-No-Shizuku-PC98-English/releases) page. The installation process is covered thereon as well.
 
 # VC format specifications.
 
