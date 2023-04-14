@@ -21,7 +21,7 @@ The structure of the image is this:
 |**4th colour channel**|Split into up to 9 blocks with a 00 byte appended at the end of each block.|
 
 1. If data in the four channels is identical, the image is treated as a 2-colour (1-byte) image. Otherwise it's treated as a 16-colour (4-byte) image.
-2. The pixel data is stored in binary in 8-pixel columns, from top to bottom, each byte representing a line of 8 pixels.
+2. The pixel data is stored in binary in 8-pixel rows, arranged into columns going from top to bottom. When you reach the bottom of the image, the next byte starts at the top 8 pixels to the right.
 3. The data employs 2 methods of compression - one is a custom RLE method, and the other is a rudimentary method of repeating existing chunks. Both are described below.
 
 ## Header.
