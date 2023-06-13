@@ -2,6 +2,8 @@
 
 An English translation of the PC-98 game **Aegean Kai No Shizuku** by Illusion Core.
 
+![Egee](https://github.com/Svipur/Aegean-Kai-No-Shizuku-PC98-English/assets/71509002/e715cb5b-d5db-4f1e-8099-70fa35186d11)
+
 # How to install.
 
 The required downloads can be found on the [Releases](https://github.com/Svipur/Aegean-Kai-No-Shizuku-PC98-English/releases) page. The installation process is covered thereon as well.
